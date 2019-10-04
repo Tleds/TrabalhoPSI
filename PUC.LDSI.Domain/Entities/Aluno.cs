@@ -9,9 +9,6 @@ namespace PUC.LDSI.Domain.Entities
    public class Aluno : Entity
     {
         //Setar todas as foreign key em todas as classes
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
         [StringLength(100)]
         public string Nome { get; set; }
         [StringLength(100)]

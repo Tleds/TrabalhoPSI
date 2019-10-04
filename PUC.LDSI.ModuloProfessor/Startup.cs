@@ -11,6 +11,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using PUC.LDSI.DataBase.Context;
+using PUC.LDSI.DataBase.Repository;
+using PUC.LDSI.Domain.Repository;
+using PUC.LDSI.Domain.Services;
+using PUC.LDSI.Domain.Services.Interfaces;
 
 namespace PUC.LDSI.ModuloProfessor
 {
@@ -39,6 +43,8 @@ namespace PUC.LDSI.ModuloProfessor
             });
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddScoped<IProfessorRepository, ProfessorRepository>();
+            services.AddScoped<IProfessorService, ProfessorService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

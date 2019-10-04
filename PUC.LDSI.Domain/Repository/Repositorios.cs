@@ -20,5 +20,10 @@ namespace PUC.LDSI.Domain.Repository
         Task<int> SaveChangesAsync();
         int SaveChanges();
     }
+    public interface IProfessorRepository
+    {
+        Task<int> IncluirNovoProfessorAsync(Professor professor);
+        Professor ObterPorLogin(string login);
+    }
 
 }

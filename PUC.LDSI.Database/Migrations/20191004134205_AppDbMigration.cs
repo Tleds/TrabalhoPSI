@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace PUC.LDSI.DataBase.Migrations
 {
-    public partial class AppMigration : Migration
+    public partial class AppDbMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -140,8 +140,7 @@ namespace PUC.LDSI.DataBase.Migrations
                     AvaliacaoId = table.Column<int>(nullable: false),
                     AlunoId = table.Column<int>(nullable: false),
                     NotaEmitida = table.Column<decimal>(type: "decimal(10,4)", nullable: false),
-                    DataProva = table.Column<DateTime>(nullable: false),
-                    NotaObtida = table.Column<decimal>(nullable: false)
+                    DataProva = table.Column<DateTime>(nullable: false)
                 },
                 constraints: table =>
                 {

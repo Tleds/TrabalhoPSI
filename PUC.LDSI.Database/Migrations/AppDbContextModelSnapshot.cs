@@ -143,8 +143,6 @@ namespace PUC.LDSI.DataBase.Migrations
                     b.Property<decimal>("NotaEmitida")
                         .HasColumnType("decimal(10,4)");
 
-                    b.Property<decimal>("NotaObtida");
-
                     b.HasKey("Id");
 
                     b.HasIndex("AlunoId");

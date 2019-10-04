@@ -8,9 +8,7 @@ namespace PUC.LDSI.Domain.Entities
 {
     public class Publicacao : Entity
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        
         public Avaliacao Avaliacao { get; set; }
         [Column(TypeName="DATETIME")]
         public DateTime DataPublicacao { get; set; }

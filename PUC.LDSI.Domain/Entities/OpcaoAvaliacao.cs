@@ -8,9 +8,8 @@ namespace PUC.LDSI.Domain.Entities
 {
     public class OpcaoAvaliacao : Entity
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+
+        
         public Questao Questao { get; set; }
         [StringLength(255)]
         public string Descricao { get; set; }

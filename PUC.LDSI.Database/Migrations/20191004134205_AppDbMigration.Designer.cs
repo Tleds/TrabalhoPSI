@@ -9,8 +9,8 @@ using PUC.LDSI.DataBase.Context;
 namespace PUC.LDSI.DataBase.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20191003222018_AppMigration")]
-    partial class AppMigration
+    [Migration("20191004134205_AppDbMigration")]
+    partial class AppDbMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -144,8 +144,6 @@ namespace PUC.LDSI.DataBase.Migrations
 
                     b.Property<decimal>("NotaEmitida")
                         .HasColumnType("decimal(10,4)");
-
-                    b.Property<decimal>("NotaObtida");
 
                     b.HasKey("Id");
 
