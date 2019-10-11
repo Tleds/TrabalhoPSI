@@ -8,9 +8,8 @@ namespace PUC.LDSI.Domain.Entities
 {
     public class Turma : Entity
     {
-
-        
         [StringLength(100)]
         public string Nome { get; set; }
+        public List<Aluno> Alunos { get; set; }
     }
 }
