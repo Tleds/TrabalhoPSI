@@ -34,12 +34,14 @@
             <div class="navbar-collapse collapse">
                 @if (SignInManager.IsSignedIn(User))
                 {
-                    <ul class="nav navbar-nav">
-                        <li><a asp-controller="Home" asp-action="Index">Avaliações</a></li>
-                        <li><a asp-controller="Home" asp-action="Index">Publicações</a></li>
-                        <li><a asp-controller="Home" asp-action="Index">Provas</a></li>
-                        <li><a asp-controller="Turma" asp-action="Index">Turmas</a></li>
-                    </ul>
+                <ul class="nav navbar-nav">
+                    <li><a asp-controller="Home" asp-action="Index">Avaliações</a></li>
+                    <li><a asp-controller="Home" asp-action="Index">Publicações</a></li>
+                    <li><a asp-controller="Home" asp-action="Index">Provas</a></li>
+                    <li><a asp-controller="Turma" asp-action="Index">Turmas</a></li>
+                    <li><a asp-controller="Avaliacao" asp-action="Index">Avaliacao</a></li>
+
+                </ul>
                 }
                 <partial name="_LoginPartial" />
             </div>

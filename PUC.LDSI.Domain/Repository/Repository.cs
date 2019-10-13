@@ -29,6 +29,10 @@ namespace PUC.LDSI.Domain.Repository
     {
         Task<Turma> ObterComAlunosAsync(int id);
     }
+    public interface IAvaliacaoRepository : IRepository<Avaliacao>
+    {
+        Task<Avaliacao> ObterComIdProfessor(int id);
+    }
 
 
 }

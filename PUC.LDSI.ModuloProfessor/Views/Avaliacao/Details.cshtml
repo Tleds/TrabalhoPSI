@@ -1,0 +1,51 @@
+﻿@model PUC.LDSI.Domain.Entities.Avaliacao
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+
+<div>
+    <h4>Avaliacao</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Disciplina)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Disciplina)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Materia)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Materia)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Professor)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Professor.Id)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+</body>
+</html>
