@@ -49,6 +49,12 @@ namespace PUC.LDSI.ModuloProfessor
             services.AddScoped<ITurmaService, TurmaService>();
             services.AddScoped<IAvaliacaoRepository, AvaliacaoRepository>();
             services.AddScoped<IAvaliacaoService, AvaliacaoService>();
+             services.AddScoped<IAlunoRepository, AlunoRepository>();
+            services.AddScoped<IAlunoService, AlunoService>();
+            services.AddScoped<IQuestaoProvaRepository, QuestaoProvaRepository>();
+            services.AddScoped<IQuestaoProvaService, QuestaoProvaService>();
+            services.AddScoped<IPublicacaoRepository, PublicacaoRepository>();
+            services.AddScoped<IPublicacaoService, PublicacaoService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

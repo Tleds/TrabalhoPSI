@@ -33,6 +33,18 @@ namespace PUC.LDSI.Domain.Repository
     {
         Task<Avaliacao> ObterComIdProfessor(int id);
     }
-
+public interface IAlunoRepository 
+    {
+        Task<int> IncluirNovoAlunoAsync(Aluno aluno);
+        Aluno ObterPorMatricula(string matricula);        
+    }
+    public interface IQuestaoProvaRepository : IRepository<QuestaoProva>
+    {
+        Task<QuestaoProva> ObterComProva(int id);
+    }
+    public interface IPublicacaoRepository : IRepository<Publicacao>
+    {
+     
+    }
 
 }

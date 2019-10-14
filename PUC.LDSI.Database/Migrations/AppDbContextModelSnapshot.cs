@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PUC.LDSI.DataBase.Context;
 
 namespace PUC.LDSI.DataBase.Migrations
@@ -243,7 +244,7 @@ namespace PUC.LDSI.DataBase.Migrations
             modelBuilder.Entity("PUC.LDSI.Domain.Entities.Aluno", b =>
                 {
                     b.HasOne("PUC.LDSI.Domain.Entities.Turma", "Turma")
-                        .WithMany()
+                        .WithMany("Alunos")
                         .HasForeignKey("TurmaId")
                         .OnDelete(DeleteBehavior.Restrict);
                 });
