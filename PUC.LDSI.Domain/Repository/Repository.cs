@@ -46,5 +46,17 @@ public interface IAlunoRepository
     {
      
     }
+        public interface IProvaRepository: IRepository<Prova>
+    {
+        Task<Prova> ObterProva(int id);
+    }
+    public interface IQuestaoRepository : IRepository<Questao>
+    {
+       Task<Questao> ObterQuestoesAsync(int id);
+    }
+    public interface IOpcaoAvaliacaoRepository : IRepository<OpcaoAvaliacao>
+    {
+        Task<OpcaoAvaliacao> ObterOpcaoAvaliacao(int id);
+    }
 
 }

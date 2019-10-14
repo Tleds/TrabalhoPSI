@@ -15,6 +15,7 @@ namespace PUC.LDSI.Domain.Entities
         public string Descricao { get; set; }
         [Column(TypeName = "bit")]
         public bool Verdadeira { get; set; }
+        
 
     }
 }
