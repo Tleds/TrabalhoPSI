@@ -36,14 +36,14 @@
                 @if (SignInManager.IsSignedIn(User))
                 {
                 <ul class="nav navbar-nav">
-                    <li><a asp-controller="Home" asp-action="Index">Avaliações</a></li>
-                    <li><a asp-controller="Home" asp-action="Index">Publicações</a></li>
-                    <li><a asp-controller="Home" asp-action="Index">Provas</a></li>
+                    <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a asp-controller="Publicacaos" asp-action="Index">Publicações</a></li>
+                    <li><a asp-controller="Provas" asp-action="Index">Provas</a></li>
                     <li><a asp-controller="Turma" asp-action="Index">Turmas</a></li>
                     <li><a asp-controller="Avaliacao" asp-action="Index">Avaliacao</a></li>
-                    <li><a asp-controller="QuestaoProva" asp-action="Index">Questões</a></li>
-                    <li><a asp-controller="Questao" asp-action="Index">Questões</a></li>
-                    <li><a asp-controller="OpcaoAvaliacao" asp-action="Index">Opção Avaliação</a></li>
+                    <li><a asp-controller="QuestaoProvas" asp-action="Index">QuestõesProva</a></li>
+                    <li><a asp-controller="Questaos" asp-action="Index">Questões</a></li>
+                    <li><a asp-controller="OpcaoAvaliacaos" asp-action="Index">Opção Avaliação</a></li>
                 </ul>
                 }
                 <partial name="_LoginPartial" />
