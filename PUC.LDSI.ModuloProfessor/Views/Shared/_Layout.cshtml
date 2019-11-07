@@ -7,7 +7,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - PUC.LDSI.ModuloProfessor</title>
-
+<link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" />
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/css/site.css" />
@@ -34,12 +35,16 @@
             <div class="navbar-collapse collapse">
                 @if (SignInManager.IsSignedIn(User))
                 {
-                    <ul class="nav navbar-nav">
-                        <li><a asp-controller="Home" asp-action="Index">Avaliações</a></li>
-                        <li><a asp-controller="Home" asp-action="Index">Publicações</a></li>
-                        <li><a asp-controller="Home" asp-action="Index">Provas</a></li>
-                        <li><a asp-controller="Turma" asp-action="Index">Turmas</a></li>
-                    </ul>
+                <ul class="nav navbar-nav">
+                    <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a asp-controller="Publicacaos" asp-action="Index">Publicações</a></li>
+                    <li><a asp-controller="Provas" asp-action="Index">Provas</a></li>
+                    <li><a asp-controller="Turma" asp-action="Index">Turmas</a></li>
+                    <li><a asp-controller="Avaliacao" asp-action="Index">Avaliacao</a></li>
+                    <li><a asp-controller="QuestaoProvas" asp-action="Index">QuestõesProva</a></li>
+                    <li><a asp-controller="Questaos" asp-action="Index">Questões</a></li>
+                    <li><a asp-controller="OpcaoAvaliacaos" asp-action="Index">Opção Avaliação</a></li>
+                </ul>
                 }
                 <partial name="_LoginPartial" />
             </div>

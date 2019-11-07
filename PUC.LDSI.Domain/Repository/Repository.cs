@@ -29,6 +29,34 @@ namespace PUC.LDSI.Domain.Repository
     {
         Task<Turma> ObterComAlunosAsync(int id);
     }
-
+    public interface IAvaliacaoRepository : IRepository<Avaliacao>
+    {
+        Task<Avaliacao> ObterComIdProfessor(int id);
+    }
+public interface IAlunoRepository 
+    {
+        Task<int> IncluirNovoAlunoAsync(Aluno aluno);
+        Aluno ObterPorMatricula(string matricula);        
+    }
+    public interface IQuestaoProvaRepository : IRepository<QuestaoProva>
+    {
+        Task<QuestaoProva> ObterComProva(int id);
+    }
+    public interface IPublicacaoRepository : IRepository<Publicacao>
+    {
+     
+    }
+        public interface IProvaRepository: IRepository<Prova>
+    {
+        Task<Prova> ObterProva(int id);
+    }
+    public interface IQuestaoRepository : IRepository<Questao>
+    {
+       Task<Questao> ObterQuestoesAsync(int id);
+    }
+    public interface IOpcaoAvaliacaoRepository : IRepository<OpcaoAvaliacao>
+    {
+        Task<OpcaoAvaliacao> ObterOpcaoAvaliacao(int id);
+    }
 
 }

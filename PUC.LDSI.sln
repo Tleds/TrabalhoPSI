@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PUC.LDSI.Domain", "PUC.LDSI
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PUC.LDSI.DataBase", "PUC.LDSI.Database\PUC.LDSI.DataBase.csproj", "{6AA51301-A46C-4028-88D1-6DA917AAB8E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PUC.PSDI.ModuloAluno", "PUC.PSDI.Aluno\PUC.PSDI.ModuloAluno.csproj", "{195A3063-1209-421C-8855-928913C9B9CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6AA51301-A46C-4028-88D1-6DA917AAB8E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AA51301-A46C-4028-88D1-6DA917AAB8E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AA51301-A46C-4028-88D1-6DA917AAB8E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{195A3063-1209-421C-8855-928913C9B9CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{195A3063-1209-421C-8855-928913C9B9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{195A3063-1209-421C-8855-928913C9B9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{195A3063-1209-421C-8855-928913C9B9CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

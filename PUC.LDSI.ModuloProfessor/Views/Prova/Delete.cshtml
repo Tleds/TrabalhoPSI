@@ -1,0 +1,55 @@
+﻿@model PUC.LDSI.Domain.Entities.Prova
+
+@{
+    //  Layout = null;
+    ViewData["Title"] = "Deletar Prova";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Delete</title>
+</head>
+<body>
+
+<h3>Deseja excluir essa prova?</h3>
+<div>
+    <h4>Prova</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NotaEmitida)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NotaEmitida)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Avaliacao)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Avaliacao.Id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Aluno)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Aluno.Id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DataProva)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DataProva)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
+</body>
+</html>
