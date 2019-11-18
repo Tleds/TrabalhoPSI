@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using PUC.LDSI.Domain.Repository;
-using Microsoft.EntityFrameworkCore;
-using PUC.LDSI.DataBase.Context;
-using PUC.LDSI.Domain.Entities;
-using System.Linq;
+﻿using System.Linq;
 using System.Threading.Tasks;
+using PUC.LDSI.Domain.Entities;
+using PUC.LDSI.Domain.Repository;
 
 namespace PUC.LDSI.DataBase.Repository
 {
-   public class OpcaoAvaliacaoRepository : Repository <OpcaoAvaliacao> , IOpcaoAvaliacaoRepository
+    public class OpcaoAvaliacaoRepository : Repository<OpcaoAvaliacao>, IOpcaoAvaliacaoRepository
     {
         private readonly AppDbContext _context;
 
@@ -19,14 +14,19 @@ namespace PUC.LDSI.DataBase.Repository
             _context = context;
         }
 
-        public async Task<OpcaoAvaliacao> ObterOpcaoAvaliacao(int id)
+        public async Task<int> ExcluirOpcaoAvaliacaoAsync(int id)
         {
+            var opcao = await base.ObterAsync(id);
 
-            var opcaoAvaliacao = await _context.OpcoesAvaliacao
-           .Include(x => x.Descricao)
-           .Where(x => x.Id == id).FirstOrDefaultAsync();
-            return opcaoAvaliacao;
+            var respostas = _context.OpcoesProva.Where(x => x.OpcaoAvaliacaoId == id).ToList();
+
+            _context.RemoveRange(respostas);
+
+            _context.Remove(opcao);
+
+            await _context.SaveChangesAsync();
+
+            return opcao.QuestaoId;
         }
-
     }
 }

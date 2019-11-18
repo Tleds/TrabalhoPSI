@@ -1,49 +1,47 @@
-﻿@model IEnumerable<PUC.LDSI.Domain.Entities.OpcaoAvaliacao>
+﻿@model PUC.LDSI.Domain.QueryResult.QuestaoQueryResult
 
 @{
-    ViewData["Title"] = "Opcao Avaliacao";
+    ViewData["Title"] = "Opções da Avaliação";
 }
-<!DOCTYPE html>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
-    <p>
-        <a asp-action="Create">Opcao Avaliacao</a>
-    </p>
-    <table class="table">
-        <thead>
+<h2>Avaliação</h2>
+
+<h4>@Html.DisplayFor(model => model.Avaliacao.Materia) / @Html.DisplayFor(model => model.Avaliacao.Disciplina) / @Html.DisplayFor(model => model.Avaliacao.Descricao)</h4>
+
+<h5>@Html.DisplayFor(model => model.Enunciado)</h5>
+
+<p>
+    <a asp-action="Create" asp-route-questaoId="@Model.QuestaoId" class="btn btn-default">Nova Opção</a>
+    <a asp-action="Index" asp-route-avaliacaoId="@Model.Avaliacao.AvaliacaoId" asp-controller="Questao" class="btn btn-default">Voltar</a>
+</p>
+<table class="table">
+    <thead>
+        <tr style="background-color:lightblue">
+            <th>
+                Opção
+            </th>
+            <th>
+                Descrição
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Opcoes)
+        {
             <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.Descricao)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Verdadeira)
-                </th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
-            <tr>
+                <td>
+                    @{ var opcao = item.Verdadeira ? "V" : "F"; }
+                    @opcao
+                </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Descricao)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Verdadeira)
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@item.OpcaoAvaliacaoId"><i class="fas fa-edit" title="Editar Opção"></i></a>&nbsp;
+                    <a asp-action="Delete" asp-route-id="@item.OpcaoAvaliacaoId"><i class="far fa-trash-alt" title="Excluir Opção"></i></a>&nbsp;
                 </td>
             </tr>
-            }
-        </tbody>
-    </table>
-</body>
-</html>
+        }
+    </tbody>
+</table>

@@ -1,45 +1,35 @@
 ﻿@model PUC.LDSI.Domain.Entities.Questao
 
 @{
-    ViewData["Title"] = "Exclusão de Questão";
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
+    ViewData["Title"] = "Excluir Questão";
 }
 
+<h2>@ViewData["Title"]</h2>
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Delete</title>
-</head>
-<body>
-
-    <h3>Confirma exclusão da questão?</h3>
-    <div>
-        <h4>Questao</h4>
-        <hr />
-        <dl class="dl-horizontal">
-            <dt>
-                @Html.DisplayNameFor(model => model.Tipo)
-            </dt>
-            <dd>
-                @Html.DisplayFor(model => model.Tipo)
-            </dd>
-            <dt>
-                @Html.DisplayNameFor(model => model.Enunciado)
-            </dt>
-            <dd>
-                @Html.DisplayFor(model => model.Enunciado)
-            </dd>
-        </dl>
-
-        <form asp-action="Delete">
-            <input type="hidden" asp-for="Id" />
-            <input type="submit" value="Delete" class="btn btn-default" /> |
-            <a asp-action="Index">Back to List</a>
-        </form>
-    </div>
-</body>
-</html>
+<h3>Confirma a exclusão desta questão?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Tipo)
+        </dt>
+        <dd>
+            @{ 
+                var tipo = (Model.Tipo == 1 ? "Múltipla Escolha" : "Verdadeiro ou Falso"); 
+            }
+            @tipo
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Enunciado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Enunciado)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Excluir" class="btn btn-default" /> 
+        <a asp-action="Index" asp-route-avaliacaoId="@Model.AvaliacaoId" class="btn btn-default">Cancelar</a>
+    </form>
+</div>

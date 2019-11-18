@@ -1,0 +1,282 @@
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.deps.json
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.runtimeconfig.json
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.runtimeconfig.dev.json
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.dll
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.pdb
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.Views.dll
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.Views.pdb
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.csprojAssemblyReference.cache
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.csproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorAssemblyInfo.cache
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorAssemblyInfo.cs
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.AssemblyInfoInputs.cache
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.AssemblyInfo.cs
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.TagHelpers.input.cache
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.TagHelpers.output.cache
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorCoreGenerate.cache
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Prova\Index.g.cshtml.cs
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Prova\PerformTest.g.cshtml.cs
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\_ViewImports.g.cshtml.cs
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\_ViewStart.g.cshtml.cs
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorTargetAssemblyInfo.cache
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorTargetAssemblyInfo.cs
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.Views.pdb
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.csproj.CopyComplete
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.dll
+C:\Users\Gabriela\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.pdb
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.deps.json
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.runtimeconfig.json
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.runtimeconfig.dev.json
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.dll
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.pdb
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.Views.dll
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.Views.pdb
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.csprojAssemblyReference.cache
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.csproj.CoreCompileInputs.cache
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorAssemblyInfo.cache
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorAssemblyInfo.cs
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.AssemblyInfoInputs.cache
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.AssemblyInfo.cs
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.TagHelpers.input.cache
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.TagHelpers.output.cache
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorCoreGenerate.cache
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Prova\Index.g.cshtml.cs
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Prova\PerformTest.g.cshtml.cs
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\_ViewImports.g.cshtml.cs
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\_ViewStart.g.cshtml.cs
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorTargetAssemblyInfo.cache
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorTargetAssemblyInfo.cs
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.Views.pdb
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.csproj.CopyComplete
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.dll
+C:\Users\Fabricio\Downloads\tentativa2\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.pdb
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.deps.json
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.runtimeconfig.json
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.runtimeconfig.dev.json
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.dll
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.pdb
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.Views.dll
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.Views.pdb
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.csprojAssemblyReference.cache
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.csproj.CoreCompileInputs.cache
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorAssemblyInfo.cache
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorAssemblyInfo.cs
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.AssemblyInfoInputs.cache
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.AssemblyInfo.cs
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.TagHelpers.input.cache
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.TagHelpers.output.cache
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorCoreGenerate.cache
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Prova\Index.g.cshtml.cs
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Prova\PerformTest.g.cshtml.cs
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\_CookieConsentPartial.g.cshtml.cs
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\_ViewImports.g.cshtml.cs
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\_ViewStart.g.cshtml.cs
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorTargetAssemblyInfo.cache
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorTargetAssemblyInfo.cs
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.Views.pdb
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.csproj.CopyComplete
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.dll
+C:\Users\esmonkei\Desktop\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.pdb
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.deps.json
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.runtimeconfig.json
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.runtimeconfig.dev.json
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.dll
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.pdb
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.Views.dll
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.Views.pdb
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.csprojAssemblyReference.cache
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.csproj.CoreCompileInputs.cache
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorAssemblyInfo.cache
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorAssemblyInfo.cs
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.AssemblyInfoInputs.cache
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.AssemblyInfo.cs
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.TagHelpers.input.cache
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.TagHelpers.output.cache
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorCoreGenerate.cache
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Prova\Index.g.cshtml.cs
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Prova\PerformTest.g.cshtml.cs
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\_ViewImports.g.cshtml.cs
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\_ViewStart.g.cshtml.cs
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorTargetAssemblyInfo.cache
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorTargetAssemblyInfo.cs
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.Views.pdb
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.csproj.CopyComplete
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.dll
+C:\Users\Fabricio\Downloads\termina\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.pdb
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.deps.json
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.runtimeconfig.json
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.runtimeconfig.dev.json
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.dll
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.pdb
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.Views.dll
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.Views.pdb
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.csprojAssemblyReference.cache
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.csproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorAssemblyInfo.cache
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorAssemblyInfo.cs
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.AssemblyInfoInputs.cache
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.AssemblyInfo.cs
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.TagHelpers.input.cache
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.TagHelpers.output.cache
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorCoreGenerate.cache
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Prova\Index.g.cshtml.cs
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Prova\PerformTest.g.cshtml.cs
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\_ViewImports.g.cshtml.cs
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\_ViewStart.g.cshtml.cs
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorTargetAssemblyInfo.cache
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorTargetAssemblyInfo.cs
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.Views.pdb
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.csproj.CopyComplete
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.dll
+C:\Users\Gabriela\Desktop\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.pdb
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.deps.json
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.runtimeconfig.json
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.runtimeconfig.dev.json
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.dll
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.pdb
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.Views.dll
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.Views.pdb
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.csprojAssemblyReference.cache
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorAssemblyInfo.cache
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorAssemblyInfo.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.AssemblyInfoInputs.cache
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.AssemblyInfo.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.TagHelpers.input.cache
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.TagHelpers.output.cache
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorCoreGenerate.cache
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Prova\Index.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Prova\PerformTest.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\_ViewImports.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\_ViewStart.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorTargetAssemblyInfo.cache
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorTargetAssemblyInfo.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.Views.pdb
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.csproj.CopyComplete
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.dll
+C:\Users\Tiago\OneDrive\Área de Trabalho\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.pdb
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.deps.json
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.runtimeconfig.json
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.runtimeconfig.dev.json
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.dll
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.pdb
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.Views.dll
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.Views.pdb
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.csprojAssemblyReference.cache
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.csproj.CoreCompileInputs.cache
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorAssemblyInfo.cache
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorAssemblyInfo.cs
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.AssemblyInfoInputs.cache
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.AssemblyInfo.cs
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.TagHelpers.input.cache
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.TagHelpers.output.cache
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorCoreGenerate.cache
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Prova\Index.g.cshtml.cs
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Prova\PerformTest.g.cshtml.cs
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\_CookieConsentPartial.g.cshtml.cs
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\_ViewImports.g.cshtml.cs
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\_ViewStart.g.cshtml.cs
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorTargetAssemblyInfo.cache
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorTargetAssemblyInfo.cs
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.Views.pdb
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.csproj.CopyComplete
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.dll
+C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.pdb

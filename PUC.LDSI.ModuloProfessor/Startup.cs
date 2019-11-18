@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using PUC.LDSI.DataBase;
 using PUC.LDSI.DataBase.Context;
 using PUC.LDSI.DataBase.Repository;
 using PUC.LDSI.Domain.Repository;
@@ -30,11 +26,6 @@ namespace PUC.LDSI.ModuloProfessor
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<AppDbContext>(opc =>
-            opc.UseSqlServer(Configuration.GetConnectionString("Conexao"),x => x.MigrationsAssembly("PUC.LDSI.DataBase")));
-            services.AddDbContext<SecurityContext>(opc =>
-            opc.UseSqlServer(Configuration.GetConnectionString("Conexao"), x =>
-            x.MigrationsAssembly("PUC.LDSI.DataBase")));
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
@@ -42,32 +33,35 @@ namespace PUC.LDSI.ModuloProfessor
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            services.AddDbContext<AppDbContext>(opc => opc.UseSqlServer(Configuration.GetConnectionString("Conexao"), 
+                x => x.MigrationsAssembly("PUC.LDSI.DataBase")));
+
+            services.AddDbContext<SecurityContext>(opc => opc.UseSqlServer(Configuration.GetConnectionString("Conexao"), x => x.MigrationsAssembly("PUC.LDSI.DataBase")));
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-            services.AddScoped<IProfessorRepository, ProfessorRepository>();
+
+            //Injeção de Dependência
             services.AddScoped<IProfessorService, ProfessorService>();
-            services.AddScoped<ITurmaRepository, TurmaRepository>();
-            services.AddScoped<ITurmaService, TurmaService>();
-            services.AddScoped<IAvaliacaoRepository, AvaliacaoRepository>();
             services.AddScoped<IAvaliacaoService, AvaliacaoService>();
-             services.AddScoped<IAlunoRepository, AlunoRepository>();
-            services.AddScoped<IAlunoService, AlunoService>();
-            services.AddScoped<IQuestaoProvaRepository, QuestaoProvaRepository>();
-            services.AddScoped<IQuestaoProvaService, QuestaoProvaService>();
-            services.AddScoped<IPublicacaoRepository, PublicacaoRepository>();
+            services.AddScoped<ITurmaService, TurmaService>();
             services.AddScoped<IPublicacaoService, PublicacaoService>();
-             services.AddScoped<IProvaRepository, ProvaRepository>();
-            services.AddScoped<IProvaService, ProvaService>();
-            services.AddScoped<IQuestaoRepository, QuestaoRepository>();
-            services.AddScoped<IQuestaoService, QuestaoService>();
+
+            services.AddScoped<IAvaliacaoRepository, AvaliacaoRepository>();
+            services.AddScoped<IProfessorRepository, ProfessorRepository>();
+            services.AddScoped<IAlunoRepository, AlunoRepository>();
             services.AddScoped<IOpcaoAvaliacaoRepository, OpcaoAvaliacaoRepository>();
-            services.AddScoped<IOpcaoAvaliacaoService, OpcaoAvaliacaoService>();
-       
+            services.AddScoped<IOpcaoProvaRepository, OpcaoProvaRepository>();
+            services.AddScoped<IProvaRepository, ProvaRepository>();
+            services.AddScoped<IPublicacaoRepository, PublicacaoRepository>();
+            services.AddScoped<IQuestaoProvaRepository, QuestaoProvaRepository>();
+            services.AddScoped<IQuestaoRepository, QuestaoRepository>();
+            services.AddScoped<ITurmaRepository, TurmaRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            if (env.IsDevelopment())
+           if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
@@ -79,9 +73,9 @@ namespace PUC.LDSI.ModuloProfessor
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            app.UseAuthentication();
             app.UseCookiePolicy();
-                
+            app.UseAuthentication();
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

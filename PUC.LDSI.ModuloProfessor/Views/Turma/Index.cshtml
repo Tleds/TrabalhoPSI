@@ -3,45 +3,33 @@
 @{
     ViewData["Title"] = "Turmas";
 }
+
 <h2>@ViewData["Title"]</h2>
 
-
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
-    <p><a asp-action="Create" class="btn btn-default">Criar Nova Turma</a></p>
-    <table class="table">
-        <thead>
+<p>
+    <a asp-action="Create" class="btn btn-default">Criar Nova Turma</a>
+</p>
+<table class="table">
+    <thead>
+        <tr style="background-color:lightblue">
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
             <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.Nome)
-                </th>
-                <th></th>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id"><i class="fas fa-edit" title="Editar Questão"></i></a>&nbsp;
+                    <a asp-action="Delete" asp-route-id="@item.Id"><i class="far fa-trash-alt" title="Excluir Questão"></i></a>&nbsp;
+                </td>
             </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td style="width:92%">
-                        @Html.DisplayFor(modelItem => item.Nome)
-                    </td>
-                    <td>
-                        <a asp-action="Edit" asp-route-id="@item.Id">
-                            <i class="fas fa-edit" title="Editar Turma"></i>
-                        </a>&nbsp;
-                        <a asp-action="Delete" asp-route-id="@item.Id">
-                            <i class="far fa-trash-alt" title="Excluir Turma"></i>
-                        </a>&nbsp;
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
-</body>
-</html>
+        }
+    </tbody>
+</table>

@@ -1,75 +1,83 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using PUC.LDSI.DataBase.Context;
 using PUC.LDSI.Domain.Entities;
-using PUC.LDSI.Domain.Repository;
 using PUC.LDSI.Domain.Services.Interfaces;
+using Microsoft.AspNetCore.Identity;
+using PUC.LDSI.Domain.QueryResult;
+using PUC.LDSI.Domain.Repository;
 
 namespace PUC.LDSI.ModuloProfessor.Controllers
 {
     public class QuestaoController : BaseController
     {
-        private readonly IQuestaoService _questaoService;
+        private readonly IAvaliacaoService _avaliacaoService;
+        private readonly IAvaliacaoRepository _avaliacaoRepository;
         private readonly IQuestaoRepository _questaoRepository;
 
-        public QuestaoController(IQuestaoService questaoService, IQuestaoRepository questaoRepository, UserManager<Usuario> _user) : base(_user)
+        public QuestaoController(UserManager<Usuario> user,
+                                 IAvaliacaoRepository avaliacaoRepository,
+                                 IQuestaoRepository questaoRepository, 
+                                 IAvaliacaoService avaliacaoService) : base(user)
         {
-            _questaoService = questaoService;
+            _avaliacaoService = avaliacaoService;
             _questaoRepository = questaoRepository;
+            _avaliacaoRepository = avaliacaoRepository;
         }
 
-        // GET: Questao
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? avaliacaoId)
         {
-            return View(await _questaoRepository.ListarTodosAsync());
+            if (avaliacaoId == null)
+            {
+                return NotFound();
+            }
+
+            var avaliacao = await _avaliacaoService.ObterAvaliacaoQueryResultAsync(avaliacaoId.Value);
+
+            if (avaliacao == null)
+            {
+                return NotFound();
+            }
+
+            return View(avaliacao);
         }
-        /*
-         // GET: Questao/Details/5
-         public async Task<IActionResult> Details(int? id)
-         {
-             if (id == null)
-             {
-                 return NotFound();
-             }
 
-             var questao = await _context.Questoes
-                 .FirstOrDefaultAsync(m => m.Id == id);
-             if (questao == null)
-             {
-                 return NotFound();
-             }
-
-             return View(questao);
-         }
-         */
-        // GET: Questao/Create
-        public IActionResult Create()
+        public IActionResult Create(int? avaliacaoId)
         {
+            if (avaliacaoId == null)
+            {
+                return NotFound();
+            }
+
+            var avaliacao = _avaliacaoRepository.ObterAsync(avaliacaoId.Value).Result;
+
+            if (avaliacao == null)
+            {
+                return NotFound();
+            }
+
+            ViewData["Avaliacao"] = avaliacao;
+
+            ViewData["OpcoesTipo"] = ObterOpcoesTipo();
+
             return View();
         }
 
-        // POST: Questao/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Tipo,Enunciado,Id")] Questao questao)
+        public async Task<IActionResult> Create([Bind("AvaliacaoId,Tipo,Enunciado")] Questao questao)
         {
             if (ModelState.IsValid)
             {
-                await _questaoService.AdicionarQuestaoAsync(questao.Enunciado, questao.Tipo, questao.Avaliacao);
-                return RedirectToAction(nameof(Index));
+                await _avaliacaoService.AdicionarQuestaoAvaliacaoAsync(questao.AvaliacaoId, questao.Tipo, questao.Enunciado);
+
+                return RedirectToAction(nameof(Index), new { avaliacaoId = questao.AvaliacaoId });
             }
+
             return View(questao);
         }
 
-        // GET: Questao/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -77,35 +85,37 @@ namespace PUC.LDSI.ModuloProfessor.Controllers
                 return NotFound();
             }
 
-            var questao = await _questaoRepository.ObterAsync(id.Value);
+            var questao = await _avaliacaoService.ObterQuestaoQueryResultAsync(id.Value);
+
             if (questao == null)
             {
                 return NotFound();
             }
+
+            ViewData["OpcoesTipo"] = ObterOpcoesTipo(questao.TipoId);
+
             return View(questao);
         }
 
-        // POST: Questao/Edit/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Tipo,Enunciado,Id")] Questao questao)
+        public async Task<IActionResult> Edit(int id, [Bind("QuestaoId,TipoId,Enunciado")] QuestaoQueryResult questao)
         {
-            if (id != questao.Id)
+            if (id != questao.QuestaoId)
             {
                 return NotFound();
             }
 
             if (ModelState.IsValid)
             {
-                await _questaoService.AlterarQuestaoAsync(questao.Id, questao.Enunciado, questao.Tipo, questao.Avaliacao);
-                return RedirectToAction(nameof(Index));
+                var parentId = await _avaliacaoService.AlterarQuestaoAvaliacaoAsync(questao.QuestaoId, questao.TipoId, questao.Enunciado);
+
+                return RedirectToAction(nameof(Index), new { avaliacaoId = parentId });
             }
+
             return View(questao);
         }
 
-        // GET: Questao/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -114,19 +124,29 @@ namespace PUC.LDSI.ModuloProfessor.Controllers
             }
 
             var questao = await _questaoRepository.ObterAsync(id.Value);
+            
             if (questao == null)
             {
                 return NotFound();
             }
+
             return View(questao);
         }
+
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            await _questaoService.ExcluirAsync(id);
+            var parentId = await _avaliacaoService.ExcluirQuestaoAvaliacaoAsync(id);
 
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Index), new { avaliacaoId = parentId });
+        }
+
+        private List<SelectListItem> ObterOpcoesTipo(int tipoId = 0) {
+            return new List<SelectListItem>() {
+                new SelectListItem{ Text="Múltipla Escolha", Value = "1", Selected = tipoId == 1 },
+                new SelectListItem{ Text="Verdadeiro ou Falso", Value = "2", Selected = tipoId == 2 }
+            };
         }
     }
 }

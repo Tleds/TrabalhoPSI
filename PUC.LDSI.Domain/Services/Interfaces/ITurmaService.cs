@@ -1,6 +1,5 @@
-﻿using System;
+﻿using PUC.LDSI.Domain.Entities;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace PUC.LDSI.Domain.Services.Interfaces
@@ -9,6 +8,8 @@ namespace PUC.LDSI.Domain.Services.Interfaces
     {
         Task<int> AdicionarTurmaAsync(string descricao);
         Task<int> AlterarTurmaAsync(int id, string descricao);
+        List<Turma> ListarTurmas();
+        Task<Turma> ObterAsync(int? id);
         Task ExcluirAsync(int id);
-    }
+    }
 }

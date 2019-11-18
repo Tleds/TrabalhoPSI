@@ -15,7 +15,7 @@ namespace PUC.LDSI.DataBase.Migrations.Security
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.1.11-servicing-32099")
+                .HasAnnotation("ProductVersion", "2.1.4-rtm-31024")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -85,11 +85,9 @@ namespace PUC.LDSI.DataBase.Migrations.Security
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.Property<string>("LoginProvider")
-                        .HasMaxLength(128);
+                    b.Property<string>("LoginProvider");
 
-                    b.Property<string>("ProviderKey")
-                        .HasMaxLength(128);
+                    b.Property<string>("ProviderKey");
 
                     b.Property<string>("ProviderDisplayName");
 
@@ -120,11 +118,9 @@ namespace PUC.LDSI.DataBase.Migrations.Security
                 {
                     b.Property<string>("UserId");
 
-                    b.Property<string>("LoginProvider")
-                        .HasMaxLength(128);
+                    b.Property<string>("LoginProvider");
 
-                    b.Property<string>("Name")
-                        .HasMaxLength(128);
+                    b.Property<string>("Name");
 
                     b.Property<string>("Value");
 
@@ -152,9 +148,6 @@ namespace PUC.LDSI.DataBase.Migrations.Security
 
                     b.Property<DateTimeOffset?>("LockoutEnd");
 
-                    b.Property<string>("Nome")
-                        .HasMaxLength(255);
-
                     b.Property<string>("NormalizedEmail")
                         .HasMaxLength(256);
 
@@ -175,6 +168,8 @@ namespace PUC.LDSI.DataBase.Migrations.Security
 
                     b.Property<string>("UserName")
                         .HasMaxLength(256);
+
+                    b.Property<string>("Nome").HasMaxLength(256);
 
                     b.HasKey("Id");
 

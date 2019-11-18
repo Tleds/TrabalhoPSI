@@ -1,8 +1,11 @@
 ﻿@model PUC.LDSI.Domain.Entities.Turma
+
 @{
     ViewData["Title"] = "Alteração de Turma";
 }
+
 <h2>@ViewData["Title"]</h2>
+
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -17,10 +20,12 @@
             <div class="form-group">
                 <input type="submit" value="Salvar" class="btn btn-default" />
                 <a asp-action="Index" class="btn btn-default">Cancelar</a>
+
             </div>
         </form>
     </div>
 </div>
+
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-} 
+}

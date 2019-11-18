@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using PUC.LDSI.DataBase.Context;
+using PUC.LDSI.DataBase;
 
 namespace PUC.LDSI.DataBase.Migrations
 {
@@ -15,7 +15,7 @@ namespace PUC.LDSI.DataBase.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.1.8-servicing-32085")
+                .HasAnnotation("ProductVersion", "2.1.11-servicing-32099")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -25,16 +25,13 @@ namespace PUC.LDSI.DataBase.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Matricula")
-                        .HasMaxLength(100);
+                    b.Property<string>("Login")
+                        .HasMaxLength(50);
 
                     b.Property<string>("Nome")
                         .HasMaxLength(100);
 
-                    b.Property<string>("Senha")
-                        .HasMaxLength(100);
-
-                    b.Property<int?>("TurmaId");
+                    b.Property<int>("TurmaId");
 
                     b.HasKey("Id");
 
@@ -50,7 +47,7 @@ namespace PUC.LDSI.DataBase.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Descricao")
-                        .HasMaxLength(255);
+                        .HasMaxLength(100);
 
                     b.Property<string>("Disciplina")
                         .HasMaxLength(100);
@@ -74,12 +71,12 @@ namespace PUC.LDSI.DataBase.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Descricao")
-                        .HasMaxLength(255);
+                        .HasMaxLength(1000);
 
-                    b.Property<int?>("QuestaoId");
+                    b.Property<int>("QuestaoId");
 
                     b.Property<bool>("Verdadeira")
-                        .HasColumnType("bit");
+                        .HasMaxLength(100);
 
                     b.HasKey("Id");
 
@@ -94,15 +91,15 @@ namespace PUC.LDSI.DataBase.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("OpcaoId");
+                    b.Property<int>("OpcaoAvaliacaoId");
 
-                    b.Property<int?>("QuestaoProvaId");
+                    b.Property<int>("QuestaoProvaId");
 
                     b.Property<bool>("Resposta");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("OpcaoId");
+                    b.HasIndex("OpcaoAvaliacaoId");
 
                     b.HasIndex("QuestaoProvaId");
 
@@ -115,13 +112,9 @@ namespace PUC.LDSI.DataBase.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Login")
-                        .HasMaxLength(100);
+                    b.Property<string>("Login");
 
                     b.Property<string>("Nome")
-                        .HasMaxLength(100);
-
-                    b.Property<string>("Senha")
                         .HasMaxLength(100);
 
                     b.HasKey("Id");
@@ -141,9 +134,6 @@ namespace PUC.LDSI.DataBase.Migrations
 
                     b.Property<DateTime>("DataProva");
 
-                    b.Property<decimal>("NotaEmitida")
-                        .HasColumnType("decimal(10,4)");
-
                     b.HasKey("Id");
 
                     b.HasIndex("AlunoId");
@@ -159,21 +149,17 @@ namespace PUC.LDSI.DataBase.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("AvaliacaoId");
+                    b.Property<int>("AvaliacaoId");
 
-                    b.Property<DateTime>("DataFim")
-                        .HasColumnType("DATETIME");
+                    b.Property<DateTime>("DataFim");
 
-                    b.Property<DateTime>("DataInicio")
-                        .HasColumnType("DATETIME");
+                    b.Property<DateTime>("DataInicio");
 
-                    b.Property<DateTime>("DataPublicacao")
-                        .HasColumnType("DATETIME");
+                    b.Property<DateTime>("DataPublicacao");
 
-                    b.Property<int?>("TurmaId");
+                    b.Property<int>("TurmaId");
 
-                    b.Property<int>("ValorProva")
-                        .HasColumnType("INT");
+                    b.Property<int>("ValorProva");
 
                     b.HasKey("Id");
 
@@ -190,13 +176,12 @@ namespace PUC.LDSI.DataBase.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("AvaliacaoId");
+                    b.Property<int>("AvaliacaoId");
 
                     b.Property<string>("Enunciado")
-                        .HasMaxLength(255);
+                        .HasMaxLength(2000);
 
-                    b.Property<int>("Tipo")
-                        .HasColumnType("INT");
+                    b.Property<int>("Tipo");
 
                     b.HasKey("Id");
 
@@ -212,11 +197,11 @@ namespace PUC.LDSI.DataBase.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<decimal>("Nota")
-                        .HasColumnType("DECIMAL(5,2)");
+                        .HasColumnType("decimal(10,4)");
 
-                    b.Property<int?>("ProvaId");
+                    b.Property<int>("ProvaId");
 
-                    b.Property<int?>("QuestaoId");
+                    b.Property<int>("QuestaoId");
 
                     b.HasKey("Id");
 
@@ -234,7 +219,7 @@ namespace PUC.LDSI.DataBase.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Nome")
-                        .HasMaxLength(100);
+                        .HasMaxLength(50);
 
                     b.HasKey("Id");
 
@@ -252,7 +237,7 @@ namespace PUC.LDSI.DataBase.Migrations
             modelBuilder.Entity("PUC.LDSI.Domain.Entities.Avaliacao", b =>
                 {
                     b.HasOne("PUC.LDSI.Domain.Entities.Professor", "Professor")
-                        .WithMany()
+                        .WithMany("Avaliacoes")
                         .HasForeignKey("ProfessorId")
                         .OnDelete(DeleteBehavior.Restrict);
                 });
@@ -260,20 +245,20 @@ namespace PUC.LDSI.DataBase.Migrations
             modelBuilder.Entity("PUC.LDSI.Domain.Entities.OpcaoAvaliacao", b =>
                 {
                     b.HasOne("PUC.LDSI.Domain.Entities.Questao", "Questao")
-                        .WithMany()
+                        .WithMany("Opcoes")
                         .HasForeignKey("QuestaoId")
                         .OnDelete(DeleteBehavior.Restrict);
                 });
 
             modelBuilder.Entity("PUC.LDSI.Domain.Entities.OpcaoProva", b =>
                 {
-                    b.HasOne("PUC.LDSI.Domain.Entities.OpcaoAvaliacao", "Opcao")
-                        .WithMany()
-                        .HasForeignKey("OpcaoId")
+                    b.HasOne("PUC.LDSI.Domain.Entities.OpcaoAvaliacao", "OpcaoAvaliacao")
+                        .WithMany("OpcoesProva")
+                        .HasForeignKey("OpcaoAvaliacaoId")
                         .OnDelete(DeleteBehavior.Restrict);
 
                     b.HasOne("PUC.LDSI.Domain.Entities.QuestaoProva", "QuestaoProva")
-                        .WithMany()
+                        .WithMany("OpcoesProva")
                         .HasForeignKey("QuestaoProvaId")
                         .OnDelete(DeleteBehavior.Restrict);
                 });
@@ -281,7 +266,7 @@ namespace PUC.LDSI.DataBase.Migrations
             modelBuilder.Entity("PUC.LDSI.Domain.Entities.Prova", b =>
                 {
                     b.HasOne("PUC.LDSI.Domain.Entities.Aluno", "Aluno")
-                        .WithMany()
+                        .WithMany("Provas")
                         .HasForeignKey("AlunoId")
                         .OnDelete(DeleteBehavior.Restrict);
 
@@ -299,7 +284,7 @@ namespace PUC.LDSI.DataBase.Migrations
                         .OnDelete(DeleteBehavior.Restrict);
 
                     b.HasOne("PUC.LDSI.Domain.Entities.Turma", "Turma")
-                        .WithMany()
+                        .WithMany("Publicacoes")
                         .HasForeignKey("TurmaId")
                         .OnDelete(DeleteBehavior.Restrict);
                 });
@@ -315,12 +300,12 @@ namespace PUC.LDSI.DataBase.Migrations
             modelBuilder.Entity("PUC.LDSI.Domain.Entities.QuestaoProva", b =>
                 {
                     b.HasOne("PUC.LDSI.Domain.Entities.Prova", "Prova")
-                        .WithMany()
+                        .WithMany("QuestoesProva")
                         .HasForeignKey("ProvaId")
                         .OnDelete(DeleteBehavior.Restrict);
 
                     b.HasOne("PUC.LDSI.Domain.Entities.Questao", "Questao")
-                        .WithMany()
+                        .WithMany("QuestoesProva")
                         .HasForeignKey("QuestaoId")
                         .OnDelete(DeleteBehavior.Restrict);
                 });

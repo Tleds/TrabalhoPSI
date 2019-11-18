@@ -1,15 +1,16 @@
-﻿using System;
+﻿using PUC.LDSI.Domain.Entities;
+using PUC.LDSI.Domain.InputData;
+using PUC.LDSI.Domain.QueryResult;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
-using PUC.LDSI.Domain.Entities;
 
 namespace PUC.LDSI.Domain.Services.Interfaces
 {
     public interface IProvaService
     {
-        Task<int> AdicionarProvaAsync(Avaliacao avaliacao, Aluno aluno, DateTime dataProva, decimal notaObtida);
-        Task<int> AlterarProvaAsync(int id, Avaliacao avaliacao, Aluno aluno, DateTime dataProva, decimal notaObtida);
-        Task ExcluirAsync(int id);
+        Task<List<AvaliacaoPublicadaQueryResult>> ListarAvaliacoesPublicadasAsync(string login);
+        Task<ProvaQueryResult> ObterProvaAsync(int publicacaoId, string login);
+        double QuestoesCorretas(List<OpcaoAvaliacao> inputProva);
+        void SalvarProva(ProvaInputData provaInputData, string login);
     }
 }

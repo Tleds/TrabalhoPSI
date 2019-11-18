@@ -1,53 +1,53 @@
-﻿@model IEnumerable<PUC.LDSI.Domain.Entities.Questao>
+﻿@model PUC.LDSI.Domain.QueryResult.AvaliacaoQueryResult
 
 @{
-    ViewData["Title"] = "Questao";
+    ViewData["Title"] = "Questões da Avaliação";
 }
-<h2>@ViewData["Title"]</h2>
 
-<p><a asp-action="Create" class="btn btn-default">Criar Nova Questao</a></p>
+<h2>Avaliação</h2>
 
-<!DOCTYPE html>
+<h4>@Html.DisplayFor(model => model.Materia) / @Html.DisplayFor(model => model.Disciplina) / @Html.DisplayFor(model => model.Descricao)</h4>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
-    <p>
-        <a asp-action="Create">Criar nova questão</a>
-    </p>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.Tipo)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Enunciado)
-                </th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
+<p>
+    <a asp-action="Create" asp-route-avaliacaoId="@Model.AvaliacaoId" class="btn btn-default">Nova Questão</a>
+    <a asp-action="Index" asp-controller="Avaliacao" class="btn btn-default">Voltar</a>
+</p>
+<table class="table">
+    <thead>
+        <tr style="background-color:lightblue">
+            <th>Número</th>
+            <th>@Html.DisplayNameFor(model => model.Questoes.FirstOrDefault().Tipo)</th>
+            <th>@Html.DisplayNameFor(model => model.Questoes.FirstOrDefault().Enunciado)</th>
+            <th>Nº Opções</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var numeroQuestao = 1;
+
+            foreach (var item in Model.Questoes)
             {
                 <tr>
+                    <td>@numeroQuestao</td>
                     <td>
                         @Html.DisplayFor(modelItem => item.Tipo)
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.Enunciado)
                     </td>
+                    <td style="@(item.Opcoes.Count < 4 ? "color:red" : "")">
+                        @Html.DisplayFor(modelItem => item.Opcoes.Count)
+                    </td>
                     <td>
-                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        <a asp-action="Edit" asp-route-id="@item.QuestaoId"><i class="fas fa-edit" title="Editar Questão"></i></a>&nbsp;
+                        <a asp-action="Index" asp-controller="OpcaoAvaliacao" asp-route-questaoId="@item.QuestaoId"><i class="fas fa-tools" title="Construir Questão"></i></a>&nbsp;
+                        <a asp-action="Delete" asp-route-id="@item.QuestaoId"><i class="far fa-trash-alt" title="Excluir Questão"></i></a>&nbsp;
                     </td>
                 </tr>
+
+                numeroQuestao++;
             }
-        </tbody>
-    </table>
-</body>
-</html>
+        }
+    </tbody>
+</table>
