@@ -60,3 +60,11 @@ C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.Domain\obj\De
 C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.Domain\bin\Debug\netstandard2.0\PUC.LDSI.Domain.deps.json
 C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.Domain\bin\Debug\netstandard2.0\PUC.LDSI.Domain.dll
 C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.Domain\bin\Debug\netstandard2.0\PUC.LDSI.Domain.pdb
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.Domain\bin\Debug\netstandard2.0\PUC.LDSI.Domain.deps.json
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.Domain\bin\Debug\netstandard2.0\PUC.LDSI.Domain.dll
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.Domain\bin\Debug\netstandard2.0\PUC.LDSI.Domain.pdb
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.Domain\obj\Debug\netstandard2.0\PUC.LDSI.Domain.csprojAssemblyReference.cache
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.Domain\obj\Debug\netstandard2.0\PUC.LDSI.Domain.AssemblyInfoInputs.cache
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.Domain\obj\Debug\netstandard2.0\PUC.LDSI.Domain.AssemblyInfo.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.Domain\obj\Debug\netstandard2.0\PUC.LDSI.Domain.dll
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.Domain\obj\Debug\netstandard2.0\PUC.LDSI.Domain.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tiago\\OneDrive\\Área de Trabalho\\Quase\\quase\\entrega_3\\PUC.LDSI.Domain\\PUC.LDSI.Domain.csproj": {}
+    "C:\\Users\\Tiago\\OneDrive\\Área de Trabalho\\porultimo\\Quase\\quase\\entrega_3\\TrabalhoPSI\\PUC.LDSI.Domain\\PUC.LDSI.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tiago\\OneDrive\\Área de Trabalho\\Quase\\quase\\entrega_3\\PUC.LDSI.Domain\\PUC.LDSI.Domain.csproj": {
+    "C:\\Users\\Tiago\\OneDrive\\Área de Trabalho\\porultimo\\Quase\\quase\\entrega_3\\TrabalhoPSI\\PUC.LDSI.Domain\\PUC.LDSI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tiago\\OneDrive\\Área de Trabalho\\Quase\\quase\\entrega_3\\PUC.LDSI.Domain\\PUC.LDSI.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Tiago\\OneDrive\\Área de Trabalho\\porultimo\\Quase\\quase\\entrega_3\\TrabalhoPSI\\PUC.LDSI.Domain\\PUC.LDSI.Domain.csproj",
         "projectName": "PUC.LDSI.Domain",
-        "projectPath": "C:\\Users\\Tiago\\OneDrive\\Área de Trabalho\\Quase\\quase\\entrega_3\\PUC.LDSI.Domain\\PUC.LDSI.Domain.csproj",
+        "projectPath": "C:\\Users\\Tiago\\OneDrive\\Área de Trabalho\\porultimo\\Quase\\quase\\entrega_3\\TrabalhoPSI\\PUC.LDSI.Domain\\PUC.LDSI.Domain.csproj",
         "packagesPath": "C:\\Users\\Tiago\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tiago\\OneDrive\\Área de Trabalho\\Quase\\quase\\entrega_3\\PUC.LDSI.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Tiago\\OneDrive\\Área de Trabalho\\porultimo\\Quase\\quase\\entrega_3\\TrabalhoPSI\\PUC.LDSI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

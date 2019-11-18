@@ -81,3 +81,14 @@ C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.DataBase\obj\
 C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.DataBase\obj\Debug\netstandard2.0\PUC.LDSI.DataBase.csproj.CopyComplete
 C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.DataBase\obj\Debug\netstandard2.0\PUC.LDSI.DataBase.dll
 C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.DataBase\obj\Debug\netstandard2.0\PUC.LDSI.DataBase.pdb
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.DataBase\bin\Debug\netstandard2.0\PUC.LDSI.DataBase.deps.json
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.DataBase\bin\Debug\netstandard2.0\PUC.LDSI.DataBase.dll
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.DataBase\bin\Debug\netstandard2.0\PUC.LDSI.DataBase.pdb
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.DataBase\bin\Debug\netstandard2.0\PUC.LDSI.Domain.dll
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.DataBase\bin\Debug\netstandard2.0\PUC.LDSI.Domain.pdb
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.DataBase\obj\Debug\netstandard2.0\PUC.LDSI.DataBase.csprojAssemblyReference.cache
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.DataBase\obj\Debug\netstandard2.0\PUC.LDSI.DataBase.AssemblyInfoInputs.cache
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.DataBase\obj\Debug\netstandard2.0\PUC.LDSI.DataBase.AssemblyInfo.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.DataBase\obj\Debug\netstandard2.0\PUC.LDSI.DataBase.csproj.CopyComplete
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.DataBase\obj\Debug\netstandard2.0\PUC.LDSI.DataBase.dll
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.DataBase\obj\Debug\netstandard2.0\PUC.LDSI.DataBase.pdb

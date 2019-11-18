@@ -280,3 +280,45 @@ C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\o
 C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.csproj.CopyComplete
 C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.dll
 C:\Users\esmonkei\Desktop\porultimo\Quase\quase\entrega_3\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.pdb
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.deps.json
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.runtimeconfig.json
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.runtimeconfig.dev.json
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.dll
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.pdb
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.Views.dll
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.DataBase\bin\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.Views.pdb
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.csprojAssemblyReference.cache
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorAssemblyInfo.cache
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorAssemblyInfo.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.AssemblyInfoInputs.cache
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.AssemblyInfo.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.TagHelpers.input.cache
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.TagHelpers.output.cache
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorCoreGenerate.cache
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Prova\Index.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Prova\PerformTest.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\_ViewImports.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\Razor\_ViewStart.cshtml.g.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorTargetAssemblyInfo.cache
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.RazorTargetAssemblyInfo.cs
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.Views.pdb
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.csproj.CopyComplete
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.dll
+C:\Users\Tiago\OneDrive\Área de Trabalho\porultimo\Quase\quase\entrega_3\TrabalhoPSI\PUC.LDSI.ModuloAluno\obj\Debug\netcoreapp2.1\PUC.LDSI.ModuloAluno.pdb
