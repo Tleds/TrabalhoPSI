@@ -15,5 +15,9 @@ namespace PUC.LDSI.Domain.Entities
         public Prova Prova { get; set; }
         public Questao Questao { get; set; }
         public List<OpcaoProva> OpcoesProva { get; set; }
+        public QuestaoProva()
+        {
+            this.OpcoesProva = new List<OpcaoProva>();
+        }
     }
 }

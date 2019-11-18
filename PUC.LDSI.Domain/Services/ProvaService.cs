@@ -133,15 +133,14 @@ namespace PUC.LDSI.Domain.Services
             var avaliacao = _avaliacaoRepository.ObterAvalicao(provaInputData.AvaliacaoId);
             //var questoeProva = _questaoRepository.Consultar(x => x.ProvaId == provaInputData.AvaliacaoId).ToList();
             //Objeto prova - 2
-            Prova prova = new Prova
-            {
-                DataProva = DateTime.Now,
-                AvaliacaoId = provaInputData.AvaliacaoId,
-                AlunoId = aluno.Id,
-                
-               Aluno = aluno,
-                Avaliacao = avaliacao
-            };
+            Prova prova = new Prova();
+
+            prova.DataProva = DateTime.Now;
+            prova.AvaliacaoId = provaInputData.AvaliacaoId;
+            prova.AlunoId = aluno.Id;
+            prova.Aluno = aluno;
+            prova.Avaliacao = avaliacao;
+
             foreach (var x in provaInputData.Questoes)
             {
                 var questaoProva = new QuestaoProva() { QuestaoId = x.QuestaoId };
@@ -171,6 +170,7 @@ namespace PUC.LDSI.Domain.Services
                 }
             }
             _provaRepository.Adicionar(prova);
+            _provaRepository.SaveChanges();
         }
     }
 }

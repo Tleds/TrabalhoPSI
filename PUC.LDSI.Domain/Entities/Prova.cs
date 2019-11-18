@@ -14,5 +14,9 @@ namespace PUC.LDSI.Domain.Entities
         public Aluno Aluno { get; set; }
         public Avaliacao Avaliacao { get; set; }
         public List<QuestaoProva> QuestoesProva { get; set; }
+        public Prova()
+        {
+            this.QuestoesProva = new List<QuestaoProva>();
+        }
     }
 }
