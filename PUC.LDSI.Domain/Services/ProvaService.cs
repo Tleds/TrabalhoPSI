@@ -63,7 +63,7 @@ namespace PUC.LDSI.Domain.Services
                     PublicacaoId = x.Id,
                     ProvaId = prova == null ? (int?)null : prova.Id,
                     DataRealizacao = prova == null ? (DateTime?)null : prova.DataProva,
-                    NotaObtida = prova == null ? (decimal?)null : GetNota(prova) //TODO - Calcular a nota obtida e retornar nesse atributo.
+                    NotaObtida = prova == null ? (decimal?)null : GetNota(prova, login, x.ValorProva) //TODO - Calcular a nota obtida e retornar nesse atributo.
                 });
             });
 
@@ -116,15 +116,15 @@ namespace PUC.LDSI.Domain.Services
         {
             return 5;
         }
-        public decimal GetNota(Prova x)
+        public decimal GetNota(Prova x, string login, int valor)
         {
             decimal nota = 0;
             foreach (var item in x.QuestoesProva)
             {
                 nota += item.Nota;
             }
-            
-            return nota;
+            var notaFinal = (valor /x.QuestoesProva.Count) * nota;
+            return notaFinal;
         }
         public void SalvarProva(ProvaInputData provaInputData, string login)
         {
@@ -153,10 +153,12 @@ namespace PUC.LDSI.Domain.Services
             }
             //Calcula nota
             var avaliacaoTeste = _avaliacaoRepository.ObterComQuestoresAsync(provaInputData.AvaliacaoId);
-            var acertos = new List<OpcaoProva>();
+            
             foreach(var x in prova.QuestoesProva)
             {
+                var acertos = new List<OpcaoProva>();
                 var questaoAvaliacao = avaliacaoTeste.Result.Questoes.Find(y => y.Id == x.QuestaoId);
+                
                 if(questaoAvaliacao.Tipo == 1)
                 {
                     var idVerdadeira = questaoAvaliacao.Opcoes.Find(z => z.Verdadeira).Id;
@@ -164,9 +166,22 @@ namespace PUC.LDSI.Domain.Services
                 }
                 if (questaoAvaliacao.Tipo == 2)
                 {
-                    acertos.AddRange(questaoAvaliacao.Opcoes.Select(z => new OpcaoProva { Resposta = z.Verdadeira, OpcaoAvaliacaoId = z.Id}));
-                    x.Nota = (1 / (decimal)questaoAvaliacao.Opcoes.Count * (decimal)acertos.Count);
-                    
+                    var respostas = 0;
+                    foreach (var y in x.OpcoesProva)
+                    {
+                        if(y.Resposta == questaoAvaliacao.Opcoes.Find(s => s.Id == y.OpcaoAvaliacaoId).Verdadeira)
+                        {
+                            respostas++;
+                        }
+                    }
+                    if(respostas != 0)
+                    {
+                        x.Nota = (decimal)respostas / (decimal)questaoAvaliacao.Opcoes.Count;
+                    }
+                    else
+                    {
+                        x.Nota = respostas;
+                    }
                 }
             }
             _provaRepository.Adicionar(prova);
